@@ -1,0 +1,94 @@
+/* Everything selector */
+* {
+    background-color:rgb(213, 231, 238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.menuClass{
+    font-size: larger;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(155, 200, 218);
+}
+a{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #9bc8da;
+    font-size: x-large;
+    color:#0c34e4;
+}
+a:hover{
+    color:#dd206f
+}
+a:after{
+    background-color: #9bc8da;
+}
+.itemP{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.divLOGO{
+    margin-top: auto;
+    text-align: justify;
+}
+/* Child/Ancestor Combinator */
+div>div{
+    font-style: italic;
+}
+/* div>p{
+    font-family: 'Times New Roman', Times, serif;
+} */
+#logoH3ID{
+   color: #0c34e4;
+   font-style: italic;
+   font-size: x-large;
+}
+/*descendant/Ancestor combinator */
+div p.itemP span{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+/* div +.h1Class{
+    color: rgb(12, 52, 228) ;
+} */
+.h1Class{
+    color: #0c34e4 ;
+}
+h1{
+    border: 3px double rgb(155, 200, 218);
+    text-align: center;
+}
+/* div + .clickHere{
+    background-color: white;
+} */
+/* p ~ .clickHere{
+    
+} */
+/* General sibling combinator */
+p ~ .clickHere{
+    color:#0c34e4;
+    font-size: medium;
+    background-color:rgb(213, 231, 238) ;
+}
+/* adjacent sibling combinator */
+#logoH3ID + p{
+    font-size: large;
+    font-display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.divLOGO > div{
+    font-size: x-large;
+    text-decoration: underline;
+    color:#0c34e4;
+}
+/* multiple selector */
+ul , li{
+    font-size: medim;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
